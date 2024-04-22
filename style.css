@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color:#40A2E3; 
+  }
+  .Game {
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+  }
+  .again {
+    position: absolute;
+    margin: 1em -13.5em;
+    font-size: 100px;
+    border-radius: 20px;
+  }
+  h2 {
+    color: white;
+    font-size: 150px;
+    margin: -9em 5em;
+  }
+  .hint {
+    position: absolute;
+    background-color: rgb(207, 201, 201);
+    width: 26vw;
+    height: 7vh;
+    font-size: 100px;
+    margin: 1em 20.5em;
+    border-radius: 20px;
+  }
+  .check {
+    position: absolute;
+    margin: -3em 5em;
+    font-size: 100px;
+    border-radius: 20px;
+  }
+  .guess {
+    position: absolute;
+    margin: -32em 28em;
+    height: 10vh;
+    width: 10vw;
+  }
+  h3 {
+    position: absolute;
+    font-size: 80px;
+    margin: 26em 22.1em;
+    /* border: 1px solid red; */
+    width: 12vw;
+  }
+  h4 {
+    position: absolute;
+    font-size: 80px;
+    margin: 28em 22em;
+    /* border: 1px solid red; */
+    width: 15vw;
+  }
+  p {
+    position: absolute;
+    margin: 23.5em 22em;
+    /* border: 1px solid red; */
+    width: 22vw;
+    font-size: 80px;
+  }
+  .question {
+    background-color: cornsilk;
+    width: 4vw;
+    position: absolute;
+    margin: 15em 13em;
+    font-size: 100px;
+    text-align: center;
+  }
+  
